@@ -16,7 +16,7 @@
 
 ## Requirements
 
-This module requires Terraform version `0.12.20` or newer.
+This module requires Terraform version `0.13.0` or newer.
 
 ## Dependencies
 
@@ -38,7 +38,7 @@ variable "urls" {
 
 module "url_redirects" {
   source  = "operatehappy/s3-object-url-redirects/aws"
-  version = "0.9.0"
+  version = "1.0.0"
 
   bucket = "redirect-bucket"
   urls   = var.urls
